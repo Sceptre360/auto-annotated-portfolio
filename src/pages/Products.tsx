@@ -1,5 +1,6 @@
-import { graphql } from 'gatsby';
+import React from 'react';
 import ProductCard from '../components/ProductCard';
+import { graphql } from 'gatsby';
 import '../styles/products.css';
 
 const ProductsPage = ({ data }) => {
